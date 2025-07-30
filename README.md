@@ -66,3 +66,53 @@
    83  git log
    84  git push origin ft/bundle-2
 ```
+
+### Exercise 2
+
+```bash
+   86  git checkout main
+   87  git add .
+   88  git commit -m "Add Bundle 2 Exercise 1 commands in README file"
+   89  git push origin main
+   90  git pull
+   91  git pull remote main
+   92  git push origin main
+   93  git pull origin main
+   94  q
+   95  git status
+   96  git push origin main
+   97  git checkout -b ft/service-redesign
+   98  git branch
+   99  git add .
+  100  git commit -m "Add changes in services file"
+  101  git push origin ft/service-redesign
+  102  git checkout main
+  103  git add  .
+  104  git commit -m "Add changes in services file in main branch"
+  105  git push origin main
+  106  git checkout ft/service-redesign
+  107  git diff ft/service-redesign main
+  108  git checkout main
+  109  git merge ft/service-redesign
+  110  git checkout ft/service-redesign
+  111  git merge ft/service-redesign
+  112  git status
+  113  git log
+  114  git reset --hard 0c9ef04
+  115  git branch
+  116  git checkout ft/service-redesign
+  117  git checkout main
+  118  git merge ft/service-redesign
+  119  git status
+  120  git checkout main
+  121  git status
+  122  git commit -m "Merge the conflicts"
+  123  git push origin main
+  124  git merge ft/service-redesign
+  125  git status
+  126  git log
+  127  git status
+  128  git push
+  129  git push --set-upstream origin main
+
+```
