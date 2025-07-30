@@ -48,3 +48,21 @@
    61  git reset --hard b1d43df
    62  git checkout main
 ```
+
+## Bundle 2
+
+### Exercise 1
+
+```bash
+   74  git branch ft/bundle-2
+   75  git branch
+   76  git checkout ft/bundle-2
+   77  git add .
+   78  git commit -m "Add services file"
+   79  git push origin main
+   80  git checkout dev
+   81  git log
+   82  git checkout ft/bundle-2
+   83  git log
+   84  git push origin ft/bundle-2
+```
