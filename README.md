@@ -224,3 +224,22 @@
   107  git push origin main
   108  git push git-copy main
 ```
+
+### Exercise 2
+
+```bash
+  117  git checkout -b ft/footer
+  118  git add .
+  119  git commit -m "Add some changes in ft/footer branch"
+  120  git add  .
+  121  git commit -m "Add a second commit in ft/footer branch"
+  122  git push origin main
+  123  git push origin ft/footer
+  124  git checkout main
+  125  git branch ft/squashing
+  126  git checkout ft/squashing
+  127  git merge --squash ft/footer
+  128  git status
+  129  git commit -m "Footer changes squashing"
+  130  git push origin ft/squashing
+```
