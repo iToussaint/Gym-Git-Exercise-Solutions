@@ -243,3 +243,15 @@
   129  git commit -m "Footer changes squashing"
   130  git push origin ft/squashing
 ```
+
+## Bundle 5
+
+### Exercise 2
+
+```bash
+   15  git clone https://github.com/iToussaint/git-cafe-exercise.git
+   16  cd git-cafe-exercise
+   17  git add index.html
+   18  git commit -m "Change Welcome to our place into Welcome to our Restaurant"
+   19  git push origin main
+```
