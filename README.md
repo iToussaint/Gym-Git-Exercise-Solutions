@@ -116,3 +116,64 @@
   129  git push --set-upstream origin main
 
 ```
+
+## Bundle 3
+
+### Exercise 1
+
+```bash
+   13  git checkout -b ft/team-page
+   14  git add .
+   15  git commit -m "Add team file"
+   16  git push origin ft/team-page
+   17  git checkout main
+   18  git checkout -b ft/contact-page
+   19  git checkout ft/team-page
+   20  git log --oneline
+   21  git checkout ft/contact-page
+   22  git cherry-pick ad63d87
+   23  git log
+   24  git add .
+   25  git commit -m "Modify the team file in ft/contact-page"
+   26  git push origin ft/contact-page
+   27  git branch ft/faq-page
+   28  git checkout ft/faq-page
+   29  git add .
+   30  git commit  -m "Add faq page"
+   31  git push origin ft/faq-page
+   32  git revert ad63d87
+   33  git branch --graph
+   34  git log
+   35  git reset --hard dfdd50
+   36  git status
+   37  git checkout ft/contact-page
+   38  git log
+   39  git reset --hard 6486c9e
+   40  git branch
+   41  git log --oneline
+   42  git reset --hard 412bf8a
+   43  git checkout ft/team-page
+   44  git log
+   45  git log --oneline
+   46  git checkout ft/contact-page
+   47  git cherry-pick ad63d87
+   48  git log
+   49  git add contact.html
+   50  git commit -m "Add contact file"
+   51  git push origin ft/contact-page
+   52  git push origin ft/contact-page
+   53  git pull origin ft/contact-page
+   54  git push origin ft/contact-page
+   55  git branch
+   56  git checkout ft/faq-page
+   57  git revert ad63d87
+   58  git pull origin ft/faq-page
+   59  git log
+   60  git reset --hard dfdd506
+   61  git pull origin ft/faq-page
+   62  git revert dfdd506
+   63  git log
+   64  git status
+   65  git push origin ft/faq-page
+   66  history
+```
