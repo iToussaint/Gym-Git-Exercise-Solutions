@@ -177,3 +177,28 @@
    65  git push origin ft/faq-page
    66  history
 ```
+
+### Exercise 2
+
+```bash
+   67  git checkout main
+   68  git status
+   69  git add .
+   70  git commit  -m "Add Bundle 3 Exercise 1 commands in README file"
+   71  git push origin main
+   72  git checkout ft/faq-page
+   73  git branch ft/home-page-redesign
+   74  git branch
+   75  git checkout main
+   76  git add .
+   77  git commit -m "Add some changes in main branch"
+   78  git push origin main
+   79  git checkout ft/home-page-redesign
+   80  git rebase main
+   81  git status
+   82  git add .
+   83  git commit -m "Make some changes in ft/home-page-redesign branch"
+   84  git checkout main
+   85  git checkout ft/home-page-redesign
+   86  git push origin ft/home-page-redesign
+```
