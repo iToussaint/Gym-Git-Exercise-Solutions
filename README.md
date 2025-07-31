@@ -269,3 +269,13 @@
    28  git commit -m "Add menu file and some changes"
    29  git push origin new-feature
 ```
+
+### Exercise 2
+
+```bash
+   32  git checkout main
+   33  git checkout -b new-bug-fix
+   34  git add index-4.html
+   35  git commit -m "Change index-4 file's title to Contact"
+   36  git push origin new-bug-fix
+```
