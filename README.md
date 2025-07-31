@@ -255,3 +255,17 @@
    18  git commit -m "Change Welcome to our place into Welcome to our Restaurant"
    19  git push origin main
 ```
+
+## Bundle 6
+
+### Exercise 1
+
+```bash
+   23  git branch new-feature
+   24  git branch
+   25  git checkout new-feature
+   26  git status
+   27  git add .
+   28  git commit -m "Add menu file and some changes"
+   29  git push origin new-feature
+```
