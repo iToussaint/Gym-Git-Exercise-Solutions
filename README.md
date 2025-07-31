@@ -279,3 +279,13 @@
    35  git commit -m "Change index-4 file's title to Contact"
    36  git push origin new-bug-fix
 ```
+
+### Exercise 3
+
+```bash
+   38  git checkout main
+   39  git checkout -b  small-hot-fix
+   40  git add  .
+   41  git commit  -m "Change the telephone number"
+   42  git push origin small-hot-fix
+```
