@@ -202,3 +202,25 @@
    85  git checkout ft/home-page-redesign
    86  git push origin ft/home-page-redesign
 ```
+
+## Bundle 4
+
+### Exercise 1
+
+```bash
+   94  git checkout main
+   95  git remote add https://github.com/iToussaint/git-copy.git
+   96  git remote -v
+   97  git remote -v
+   98  git remote add git-copy https://github.com/iToussaint/git-copy.git
+   99  git remote -v
+  100  git remote -rm git-copy
+  101  git remote rm git-copy
+  102  git remote -v
+  103  git  remote add git-copy https://github.com/iToussaint/git-copy.git
+  104  git remote -v
+  105  git add .
+  106  git commit -m "Add some changes in home file"
+  107  git push origin main
+  108  git push git-copy main
+```
